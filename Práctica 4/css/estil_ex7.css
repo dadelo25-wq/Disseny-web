@@ -1,0 +1,116 @@
+/* Configuración Base (igual que l'ex. 6) */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    color: #333;
+}
+
+/* 1. Bloque TITOL */
+.bloc-titol {
+    background: linear-gradient(135deg, #002060 0%, #00b0f0 100%);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.img-planeta {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 20px;
+}
+
+/* 2. Layout */
+.contenedor-principal {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bloc-informacio-ss,
+.bloc-planetes,
+.bloc-taules,
+.bloc-informacio-p {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.bloc-informacio-ss {
+    flex: 2;
+}
+
+.bloc-planetes {
+    flex: 1;
+}
+
+/* 3. Listes */
+.lista-planetas {
+    list-style-type: square;
+}
+
+.lista-decimal {
+    list-style-type: decimal-leading-zero;
+}
+
+/* 4. TAULES - ESTILS DE L'EXERCICI 7 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 25px;
+    text-align: left;
+}
+
+/* Taula Característiques físiques (groc) */
+.taula-fisica th {
+    background-color: #ffeb3b;
+    /* Groc exacte de la captura */
+    color: #000;
+    font-weight: bold;
+    width: 40%;
+}
+
+/* Taula Característiques atmosfèriques (taronja-peach) */
+.taula-atmosferica th {
+    background-color: #ffcc80;
+    /* Taronja-peach exacte de la captura */
+    color: #000;
+    font-weight: bold;
+    width: 40%;
+}
+
+/* 5. Efecte Parallax */
+.parallax-mini {
+    background-image: url('https://www.teidestars.com/cdn/shop/articles/Jupiter_c3b7dd2e-fa85-4e2b-ae9d-21a801f3ee13.jpg?v=1698938592');
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* 6. Peu */
+.bloc-peu {
+    text-align: right;
+    padding: 20px 40px;
+    color: #ff6600;
+    font-family: monospace;
+}
+
+/* Negreta */
+strong {
+    color: #00b0f0;
+    text-decoration: overline;
+}

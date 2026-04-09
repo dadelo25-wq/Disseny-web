@@ -1,0 +1,42 @@
+/*cuerpo (body) */
+body {
+    background-color: #FBF37D;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/* Título h1 */
+h1 {
+    color: green;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* Título h6 */
+h6 {
+    color: red;
+    text-align: right;
+}
+
+p {
+    font-size: medium;
+    text-align: justify;
+}
+
+/* Lo de negrita y fuerte */
+strong,
+b {
+    color: green;
+    text-decoration: underline;
+}
+
+/* Imagen */
+img {
+    border-style: groove;
+    border-width: 5px;
+    display: block;
+    margin: 0 auto;
+}
+

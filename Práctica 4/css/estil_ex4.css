@@ -1,0 +1,66 @@
+/* tipus de lletra Trebuchet MS  */
+body {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+/* títol a dalt i a la dreta, vora doble  */
+table {
+    caption-side: top;
+    border: 3px double #000;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+caption {
+    text-align: right;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+/*. vora sòlida unificada,*/
+th,
+td {
+    border: 1px solid #000;
+    color: #380B61;
+    padding: 20px;
+}
+
+/* . Cel·la en negreta */
+.negreta {
+    font-weight: bold;
+    text-align: center;
+    background-color: #5b9bd5;
+    color: #000;
+}
+
+/* . Cel·la normal */
+td {
+    text-align: right;
+}
+
+
+/* Capçalera  */
+.captaula th {
+    background-color: #00b0f0;
+    color: white;
+    text-align: center;
+}
+
+/* Primera cel·la de la capçalera */
+.captaula th:first-child {
+    background-color: #002060;
+}
+
+/* Fila del pati  */
+.filapati {
+    background-color: #9cc2e5;
+    text-align: center !important;
+}
+
+/* Estil per al peu de pàgina ) */
+p {
+    text-align: left;
+    margin-top: 20px;
+    font-weight: bold;
+}
+

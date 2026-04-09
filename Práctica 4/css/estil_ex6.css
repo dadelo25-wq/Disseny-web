@@ -1,0 +1,88 @@
+/* Configuración Base (Verdana según ex. 5) */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    color: #333;
+}
+
+/* 1. Bloque TITOL: Degradado y sombra */
+.bloc-titol {
+    background: linear-gradient(135deg, #002060 0%, #00b0f0 100%);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.img-planeta {
+    width: 250px;
+    border-radius: 50%; /* Foto redonda */
+    border: 5px solid white;
+    margin-top: 20px;
+}
+
+/* 2. Layout: Modelo de Cajas */
+.contenedor-principal {
+    display: flex; /* Alinea SS y Planetas lado a lado */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.bloc-informacio-ss, .bloc-planetes, .bloc-taules, .bloc-informacio-p {
+    background: white;
+    padding: 20px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05); /* Sombra suave */
+    margin-bottom: 20px;
+}
+
+.bloc-informacio-ss { flex: 2; }
+.bloc-planetes { flex: 1; }
+
+/* 3. Estilo de Listas */
+.lista-planetas {
+    list-style-type: square; /* Estilo cuadro */
+}
+
+.lista-decimal {
+    list-style-type: decimal-leading-zero; /* 01, 02... */
+}
+
+/* 4. Tablas (según ex. 5) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 25px; /* Espaciado de 25px */
+    text-align: left;
+}
+
+/* 5. Efecto Parallax (Reducido para este bloque) */
+.parallax-mini {
+    background-image: url('https://www.teidestars.com/cdn/shop/articles/Jupiter_c3b7dd2e-fa85-4e2b-ae9d-21a801f3ee13.jpg?v=1698938592');
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* 6. Bloque PEU: Naranja y Monospace */
+.bloc-peu {
+    text-align: right;
+    padding: 20px 40px;
+    color: #ff6600; /* Naranja */
+    font-family: 'monospace';
+}
+
+/* Estilo para negrita (Subrayado por arriba) */
+strong {
+    color: #00b0f0;
+    text-decoration: overline;
+}

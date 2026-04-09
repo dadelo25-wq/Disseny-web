@@ -1,0 +1,63 @@
+/* Configuració general */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #333;
+}
+
+/* Estil comú per a tots els blocs */
+.bloc {
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Blocs de text  */
+.text {
+    background-color: #f4f4f4;
+}
+
+.text h1, .text h2 {
+    color: #002060;
+}
+
+/* Bloc amb efecte PARALLAX */
+.imatge-parallax {
+    
+    background-image: url('https://www.teidestars.com/cdn/shop/articles/Jupiter_c3b7dd2e-fa85-4e2b-ae9d-21a801f3ee13.jpg?v=1698938592');
+    
+    /* Efecte clau: la imatge no es mou amb el scroll */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 500px; 
+}
+
+/* Text sobre la imatge parallax */
+.titol-central {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 20px 40px;  
+    font-size: 2em;
+    letter-spacing: 5px;
+    border: 2px solid #fff;
+}
+
+/* Estil de la llista */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+

@@ -1,0 +1,43 @@
+/* Configuració del body */
+body {
+    font-family: monospace; 
+}
+
+/* Configuració de la taula */
+table {
+    border: 1px solid black; 
+    border-collapse: collapse; 
+    background-color: #9FFD87; 
+    width: 100%;
+}
+
+
+caption {
+    caption-side: bottom; 
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black; 
+    color: #380B61; 
+    padding: 15px; 
+}
+
+
+td {
+    text-align: right;
+}
+
+th, .negreta {
+    font-weight: bold;
+    text-align: left;
+}
+
+.captaula {
+    background-color: #5BFF33;
+}
+
+.filapati {
+    text-align: center;
+}
+
