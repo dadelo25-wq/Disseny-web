@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Formulario de registro para la Agencia de Defensa Global en el universo de Invencible.">
+    <title>Invencible - Reclutamiento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Invencible</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes & Poder</a></li>
+                <li><a href="contacto.html" class="active">Únete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="section-title">Registro de Héroes</h1>
+
+        <div class="content-section" style="border-left-color: var(--color-amarillo);">
+            <p>La Agencia de Defensa Global (GDA) está en busca de talento. Si tienes habilidades sobrehumanas,
+                intelecto a nivel monstruoso o un arsenal inigualable, completa el siguiente formulario. Cecil Stedman
+                se pondrá en contacto... si te consideramos apto.</p>
+        </div>
+
+        <div class="form-container">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre-real">Nombre Real / Identidad Secreta:</label>
+                    <input type="text" id="nombre-real" name="nombre-real" placeholder="Ej. Mark Grayson" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="alias">Alias de Superhéroe:</label>
+                    <input type="text" id="alias" name="alias" placeholder="Ej. Invencible" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="origen">Origen del Poder:</label>
+                    <select id="origen" name="origen" required>
+                        <option value="" disabled selected>Selecciona tu origen...</option>
+                        <option value="alienigena">Herencia Alienígena</option>
+                        <option value="magia">Artes Místicas / Magia</option>
+                        <option value="mutacion">Mutación Genética</option>
+                        <option value="tecnologia">Tecnología Especializada</option>
+                        <option value="accidente">Accidente Laboratorio / Químico</option>
+                        <option value="entrenamiento">Entrenamiento Extremo</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="habilidades">Descripción Extensa de Habilidades:</label>
+                    <textarea id="habilidades" name="habilidades" rows="5"
+                        placeholder="¿Vuelas? ¿Superfuerza? ¿Magia oscura? Sé detallado, tu vida podría depender de esto."
+                        required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="afiliacion">¿Tienes alguna afiliación previa?</label>
+                    <input type="text" id="afiliacion" name="afiliacion"
+                        placeholder="Ej. Ninguna, Teen Team, Independiente...">
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Solicitud a la GDA</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#">X / Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Reddit</a>
+            </div>
+            <p class="copyright">&copy; 2024 Invencible Fan Site - Actividad Académica. Universo creado por Robert
+                Kirkman.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
